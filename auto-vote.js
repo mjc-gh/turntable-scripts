@@ -33,4 +33,7 @@
 			})(json.room.metadata.current_song._id);
 		}
 	});
+
+	// vote right now
+	voter.call(room, 'up');
 })();
